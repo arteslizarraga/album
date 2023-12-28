@@ -1,0 +1,29 @@
+<style>
+    .foto-mini {
+        width: 10%;
+        margin: 0.2em;
+        cursor: pointer;
+    }
+</style>
+
+<ng-container *ngFor="let categoria of categorias">
+    <table border="2" style="width: 100%">
+        <thead style="background-color: #595959; color: white;">
+            <tr>
+                <th style="padding: 0.5em; text-align: center;">{{categoria.nombre}}</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <ng-container *ngFor="let foto of categoria.fotos">
+                        <img src="{{rutaGeneral}}/{{categoria.nombreCarpeta}}/{{foto.ruta}}" class="foto-mini" (click)="verFoto($event)" />
+                    </ng-container>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br/>
+</ng-container>
+
