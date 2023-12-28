@@ -1,0 +1,78 @@
+- Ver sitio web:
+	https://jmlizarraganodos.github.io/EjemploAngularAdminLte/index.html
+	
+- Desinstalar Angular Antiguo 
+	npm uninstall -g @angular/cli
+	
+- Instalar Angular 15:	
+	npm install -g @angular/cli@15
+	
+- Crear proyecto:
+	ng new EjemploAngularAdminLte
+		//Cuando pregunte "Would you like to add Angular routing? (y/N)"  Poner Si(y)
+		// Cuando pregunte "Which stylesheet format would you like to use? (Use arrow keys)" Solo apretar enter 
+		
+- Crear componentes:		
+	ng generate component Componentes/Login
+	ng generate component Componentes/Venta
+	ng generate component Componentes/SaldoInventario
+	ng generate component Componentes/Producto
+	ng generate component Componentes/Marca
+	
+	ng generate component Componentes/Personas/Cliente
+	ng generate component Componentes/Personas/Usuario
+	
+- Crear Servicios:
+	ng generate service Configuraciones/ConfiguracionesProyecto
+	
+	ng generate service Servicios/Sesion
+	ng generate service Servicios/AuthGuard
+	ng generate service Servicios/AuthInterceptor
+	
+Publicar:
+	ng build --output-hashing none
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+Corregir error al publicar:	
+Error: bundle initial exceeded maximum budget. Budget 1.00 MB was not met by 783.06 kB with a total of 1.76 MB.
+
+              "budgets": [
+                {
+                  "type": "initial",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                },
+                {
+                  "type": "anyComponentStyle",
+                  "maximumWarning": "2mb",
+                  "maximumError": "5mb"
+                }
+              ],
+
