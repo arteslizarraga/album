@@ -10,14 +10,17 @@
     <table border="2" style="width: 100%">
         <thead style="background-color: #595959; color: white;">
             <tr>
-                <th style="padding: 0.5em; text-align: center;">{{categoria.nombre}}</th>
+                <th (click)="categoria.abierto = !categoria.abierto" style="padding: 0.5em; text-align: center;">
+                    {{categoria.nombre}}
+                </th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr *ngIf="categoria.abierto">
                 <td>
                     <ng-container *ngFor="let foto of categoria.fotos">
-                        <img src="{{rutaGeneral}}/{{categoria.nombreCarpeta}}/{{foto.ruta}}" class="foto-mini" (click)="verFoto($event)" />
+                        <img src="{{rutaGeneral}}/{{categoria.nombreCarpeta}}/{{foto.ruta}}" class="foto-mini" (click)="verFoto($event)" 
+                        loading="lazy" />
                     </ng-container>
                 </td>
             </tr>
