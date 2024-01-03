@@ -9,6 +9,9 @@ https://arteslizarraga.github.io/album
 	
 - Instalar Angular 15:	
 	npm install -g @angular/cli@15
+
+- Instalar Dependencias:
+	npm install --legacy-peer-deps
 	
 - Crear proyecto:
 	ng new EjemploAngularAdminLte

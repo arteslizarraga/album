@@ -10,8 +10,10 @@ export class UsuarioFicticio
   public password : string;
 
   constructor() {
-    this.username = "hola@gmail.com";
-    this.password = "abcd@Prueba_123456";
+    // this.username = "hola@gmail.com";
+    // this.password = "abcd@Prueba_123456";
+    this.username = "";
+    this.password = "";
   }
 }
 

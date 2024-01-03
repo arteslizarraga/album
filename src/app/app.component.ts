@@ -132,6 +132,16 @@ export class AppComponent
       //===============================================================>>>>>
       // ENTRAR SIN LLAMAR AL BACKEND:
 
+      let cadena = "9rodarboxepolapmiloaron98hcstirfidieh30ubab10ifos46aros";
+      cadena = cadena.split("").reverse().join("");
+      let username = cadena.substr(12, 4);
+      let password = cadena.substr(36, 6);
+      // console.log(username);
+      // console.log(password);
+
+      if (jsonDatosForm.username != username || jsonDatosForm.password != password)
+        return alert("Usuario o password incorrectos");
+
       this.autorizadoEntrar = true; 
 
       //var exp = Date.now() + 5000; // 5000 milisegundos (5 segundos)
