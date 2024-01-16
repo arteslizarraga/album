@@ -84,18 +84,17 @@ export class CatacumbaComponent
       ]
     });
 
-    this.categorias.push({
-      nombre: "Bath",
-      nombreCarpeta: "Bath",
-      abierto: false,
-      fotos: [
-        { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" }, { ruta: "5.png" }, { ruta: "6.png" }, { ruta: "7.png" }, { ruta: "8.png" },
-        { ruta: "9.png" }, { ruta: "10.png" }, { ruta: "11.png" }, { ruta: "12.png" }, { ruta: "13.png" }, { ruta: "14.png" }, { ruta: "15.png" },
-        { ruta: "16.png" }, { ruta: "17.png" },
-        { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" },
-        { ruta: "CatacumbaBath_1.gif" },{ ruta: "CatacumbaBath_2.gif" },{ ruta: "CatacumbaBath_3.gif" },{ ruta: "CatacumbaBath_4.gif" }
-      ]
-    });
+    // this.categorias.push({
+    //   nombre: "Bath",
+    //   nombreCarpeta: "Bath",
+    //   abierto: false,
+    //   fotos: [
+    //     { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" }, { ruta: "5.png" }, { ruta: "6.png" }, { ruta: "7.png" }, { ruta: "8.png" },
+    //     { ruta: "9.png" }, { ruta: "10.png" }, { ruta: "11.png" }, { ruta: "12.png" }, { ruta: "13.png" }, { ruta: "14.png" }, { ruta: "15.png" },
+    //     { ruta: "16.png" }, { ruta: "17.png" },
+    //     { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" }
+    //   ]
+    // });
 
     this.categorias.push({
       nombre: "Party",
