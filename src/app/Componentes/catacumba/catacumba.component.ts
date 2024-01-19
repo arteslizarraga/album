@@ -80,6 +80,9 @@ export class CatacumbaComponent
 
         { ruta: "33.png" },{ ruta: "34.png" },{ ruta: "35.png" },{ ruta: "36.png" },{ ruta: "37.png" },{ ruta: "38.png" },{ ruta: "39.png" },
         { ruta: "40.png" },{ ruta: "41.png" },{ ruta: "42.png" },{ ruta: "43.png" },{ ruta: "44.png" },{ ruta: "45.png" },{ ruta: "46.png" },
+
+        { ruta: "47.png" },{ ruta: "48.png" },{ ruta: "49.png" },{ ruta: "50.png" },{ ruta: "51.png" },{ ruta: "52.png" },{ ruta: "53.png" },{ ruta: "54.png" },
+
         { ruta: "Catacumba1.gif" }, { ruta: "Catacumba2.gif" }, { ruta: "Catacumba3.gif" }, { ruta: "Catacumba4.gif" }
       ]
     });
@@ -92,7 +95,7 @@ export class CatacumbaComponent
     //     { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" }, { ruta: "5.png" }, { ruta: "6.png" }, { ruta: "7.png" }, { ruta: "8.png" },
     //     { ruta: "9.png" }, { ruta: "10.png" }, { ruta: "11.png" }, { ruta: "12.png" }, { ruta: "13.png" }, { ruta: "14.png" }, { ruta: "15.png" },
     //     { ruta: "16.png" }, { ruta: "17.png" },
-    //     { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" }
+    //     { ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" }, { ruta: "21.png" },{ ruta: "22.png" },{ ruta: "23.png" }
     //   ]
     // });
 
@@ -102,6 +105,18 @@ export class CatacumbaComponent
       abierto: false,
       fotos: [
         { ruta: "1.png" }
+      ]
+    });
+
+    this.categorias.push({
+      nombre: "Pre 2020",
+      nombreCarpeta: "Pre_2020",
+      abierto: false,
+      fotos: [
+        { ruta: "1.png" },{ ruta: "2.png" },{ ruta: "3.png" },{ ruta: "4.png" },{ ruta: "5.png" },{ ruta: "6.png" },{ ruta: "7.png" },{ ruta: "8.png" },
+        { ruta: "9.png" },{ ruta: "10.png" },{ ruta: "11.png" },{ ruta: "12.png" },{ ruta: "13.png" },{ ruta: "14.png" },{ ruta: "15.png" },
+        { ruta: "16.png" },{ ruta: "17.png" },{ ruta: "18.png" },{ ruta: "19.png" },{ ruta: "20.png" },{ ruta: "21.png" },{ ruta: "22.png" },{ ruta: "23.png" },
+        { ruta: "24.png" }
       ]
     });
   }
