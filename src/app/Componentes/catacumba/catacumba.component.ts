@@ -125,8 +125,10 @@ export class CatacumbaComponent
   }
 
   verFoto(evento: any) {
-    //window.open(evento.target.src, "_blank");
-    window.open("/#/verFoto?ruta=" + evento.target.src, "_blank");
+    window.open(evento.target.src, "_blank");
+    //window.open("/#/verFoto?ruta=" + evento.target.src, "_blank");
+
+    // https://arteslizarraga.github.io/album/#/verFoto?ruta=https:%2F%2Farteslizarraga.github.io%2Falbum%2Fassets%2Fimages%2Fas0dfg34%2FCatacumba%2FParty%2F1.png
   }
  
 }

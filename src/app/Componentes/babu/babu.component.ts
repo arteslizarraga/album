@@ -37,8 +37,8 @@ export class BabuComponent
   }
 
   verFoto(evento: any) {
-    //window.open(evento.target.src, "_blank");
-    window.open("/#/verFoto?ruta=" + evento.target.src, "_blank");
+    window.open(evento.target.src, "_blank");
+    //window.open("/#/verFoto?ruta=" + evento.target.src, "_blank");
   }
  
 }
