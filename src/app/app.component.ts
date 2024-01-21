@@ -24,6 +24,8 @@ export class ItemMenu
 })
 export class AppComponent 
 {
+  public mostrarNav: boolean = true;
+  public rutaFoto: string = "";
   public rutaActual = "";
   public directorioAgrupador = "";
   private url = ""; 

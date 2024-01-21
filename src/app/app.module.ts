@@ -17,6 +17,7 @@ import { HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { AuthInterceptorService } from './Servicios/auth-interceptor.service';
 import { CatacumbaComponent } from './Componentes/catacumba/catacumba.component';
 import { BabuComponent } from './Componentes/babu/babu.component';
+import { VerFotoComponent } from './Componentes/ver-foto/ver-foto.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { BabuComponent } from './Componentes/babu/babu.component';
     UsuarioComponent,
     MarcaComponent,
     CatacumbaComponent,
-    BabuComponent
+    BabuComponent,
+    VerFotoComponent
   ],
   imports: [
     BrowserModule,

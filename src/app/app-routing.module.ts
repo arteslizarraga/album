@@ -10,6 +10,7 @@ import { SaldoInventarioComponent } from './Componentes/saldo-inventario/saldo-i
 import { AuthGuardService } from './Servicios/auth-guard.service';
 import { CatacumbaComponent } from './Componentes/catacumba/catacumba.component';
 import { BabuComponent } from './Componentes/babu/babu.component';
+import { VerFotoComponent } from './Componentes/ver-foto/ver-foto.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },
@@ -27,7 +28,7 @@ const routes: Routes = [
   { path: 'saldoInventario', component: SaldoInventarioComponent, title: "Saldo Inventario", canActivate: [AuthGuardService] },
   { path: 'catacumba', component: CatacumbaComponent, title: "Catacumba", canActivate: [AuthGuardService] },
   { path: 'babu', component: BabuComponent, title: "Babularda", canActivate: [AuthGuardService] },
-
+  { path: 'verFoto', component: VerFotoComponent, canActivate: [AuthGuardService] },
   { path: '**', redirectTo: 'login', pathMatch: 'full' }   // Con cualquier ruta desconocida te redirige al login
 ];
 

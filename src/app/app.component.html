@@ -1,6 +1,6 @@
 <!-- <div style="display: none" id="loading-spinner"></div> -->
 
-<div [class.wrapper] = "autorizadoEntrar">
+<div *ngIf="mostrarNav" [class.wrapper] = "autorizadoEntrar">
 
   <!-- <menu-navegacion-app> -->
   <!-- ==================================================================================================== -->
@@ -105,3 +105,15 @@
   </aside>
 
 </div>
+
+
+<ng-container *ngIf="!mostrarNav">
+  <style>
+    #imagenMostrada {
+      /* width: 100%;
+      height: 100%; */
+      /* object-fit: contain; */
+    }
+  </style>
+  <img [src]="rutaFoto" id="imagenMostrada">
+</ng-container>
