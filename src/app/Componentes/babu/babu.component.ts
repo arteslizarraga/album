@@ -31,7 +31,7 @@ export class BabuComponent
       abierto: false,
       fotos: [
         { ruta: "1.png" }, { ruta: "2.jpg" },{ ruta: "3.jpg" },{ ruta: "4.jpg" },{ ruta: "5.png" },{ ruta: "6.png" },{ ruta: "7.png" },
-        { ruta: "8.png" },
+        { ruta: "8.png" },{ ruta: "9.png" },{ ruta: "10.png" },{ ruta: "11.png" },{ ruta: "12.png" },
       ]
     });
   }
