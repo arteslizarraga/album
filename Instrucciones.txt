@@ -16,6 +16,10 @@ https://arteslizarraga.github.io/album
 - Si no funciona el npm start porque te da este error (Error: error:0308010C:digital envelope routines::unsupported):
 	set NODE_OPTIONS=--openssl-legacy-provider
 	
+Finalizar proceso Angular con cmd:
+	netstat -ano | find "4200"
+	taskkill /F /PID 24504           // 24504 es el PID encontrado
+	
 - Crear proyecto:
 	ng new EjemploAngularAdminLte
 		//Cuando pregunte "Would you like to add Angular routing? (y/N)"  Poner Si(y)
