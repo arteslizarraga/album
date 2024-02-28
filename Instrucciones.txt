@@ -13,6 +13,9 @@ https://arteslizarraga.github.io/album
 - Instalar Dependencias:
 	npm install --legacy-peer-deps
 	
+- Si no funciona el npm start porque te da este error (Error: error:0308010C:digital envelope routines::unsupported):
+	set NODE_OPTIONS=--openssl-legacy-provider
+	
 - Crear proyecto:
 	ng new EjemploAngularAdminLte
 		//Cuando pregunte "Would you like to add Angular routing? (y/N)"  Poner Si(y)
